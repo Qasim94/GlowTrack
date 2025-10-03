@@ -1,0 +1,18 @@
+{
+	"name": "xcode build server",
+	"version": "0.2",
+	"bspVersion": "2.0",
+	"languages": [
+		"c",
+		"cpp",
+		"objective-c",
+		"objective-cpp",
+		"swift"
+	],
+	"argv": [
+		"/opt/homebrew/bin/xcode-build-server"
+	],
+	"workspace": "/Users/qasim/Desktop/my-apps-demo/GlowTrack/GlowTrack.xcodeproj/project.xcworkspace",
+	"build_root": "/Users/qasim/Library/Developer/Xcode/DerivedData/GlowTrack-hgjvgxoenjyqprgtrzextpbkpsxd",
+	"kind": "xcode"
+}
