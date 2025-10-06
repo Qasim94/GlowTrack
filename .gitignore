@@ -2,27 +2,18 @@
 .cursorrules
 instructions.md
 
-# Xcode
-.DS_Store
-*/build/*
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
+# Configuration files with sensitive data
+GlowTrack/Config.swift
+
+# Xcode user-specific files
 xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
 *.moved-aside
 *.xccheckout
-*.xcscmblueprint
 
-# Build generated
-build/
-DerivedData/
-
-# Various settings
+# Xcode project files
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -32,15 +23,31 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
-# Other
+# Build generated files
+build/
+DerivedData/
 *.hmap
-*.xccheckout
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # CocoaPods
 Pods/
+*.xcworkspace
+!default.xcworkspace
 
 # Carthage
 Carthage/Build
+Carthage/Checkouts
 
 # Accio dependency management
 Dependencies/
@@ -54,3 +61,23 @@ fastlane/test_output
 
 # Code Injection
 iOSInjectionProject/
+
+# AppCode
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+
+# API keys and secrets (additional patterns)
+*API*key*
+*secret*
+*.env
+.env*
+
+# Documentation that might contain sensitive info
+docs/instructions.md
